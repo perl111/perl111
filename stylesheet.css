@@ -1,0 +1,90 @@
+header {
+  position: fixed;
+  background-color: #b0c4de;
+  background: cover;
+  z-index: 100;
+  left: 0;
+  top: 0;
+  height: 85px;
+  width: 100%;
+}
+
+header h1 {
+  color: white;
+  text-align: center;
+}
+
+header a {
+  float: right;
+  font-size: 30px;
+  color: yellow;
+  border: inset 10px #4169e1;
+  background-color: #4169e1;
+  display: inline-block;
+  transition: 0.3s;
+}
+
+header a:hover {
+  opacity: 0.8;
+  color: yellowgreen;
+}
+
+.picture3 img {
+  height: 300px;
+  width: auto;
+  border-radius: 20px;
+  position: absolute;
+  left: 350px;
+  display: inline-block;
+}
+
+.picture2 img {
+  border-radius: 20px;
+  width: 250px;
+}
+
+.profile {
+
+}
+
+.PR {
+  background: #b0c4de;
+  border-radius: 20px;
+  display: inline-block;
+}
+
+
+.TOP {
+  font-size: 20px;
+  border: inset 10px #4169e1;
+  background-color: #4169e1;
+  display: inline-block;
+  transition: 0.3s;
+}
+
+.TOP a{
+  color: yellow;
+}
+
+.TOP:hover {
+  opacity: 0.8;
+}
+
+.TOP:hover a {
+  color: yellowgreen;
+}
+
+body {
+  padding-top: 85px;
+  color: #4169e1;
+  font-family: 'Meiryo';
+  background-image:url("image.png") ;
+  background-size: fixed;
+  background-size: cover;
+}
+
+footer {
+  float: right;
+  background-color: #b0c4de;
+  border-radius: 10px;
+}

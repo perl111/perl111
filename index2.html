@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="stylesheet2.css">
+<link rel="stylesheet" href="responsive.css">
+  <title>スライド写真</title>
+</head>
+<body>
+  <div class="slider">
+    <img src="image5.jfif" id="slide_img">
+  </div>
+
+<script>
+  const img_src = ["image5.jfif", "image6.jfif", "image7.jfif", "image8.jfif"];
+        let num = -1;
+
+        function slide_time() {
+          if (num === 2) {
+            num = 0;
+          } else {
+            num++;
+          }
+          document.getElementById("slide_img").src = img_src[num];
+        }
+
+        setInterval(slide_time, 1800);
+</script>
+</body>
+</html>

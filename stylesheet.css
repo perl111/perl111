@@ -14,7 +14,7 @@ header h1 {
   text-align: center;
 }
 
-header a {
+.slide a {
   float: right;
   font-size: 30px;
   color: yellow;
@@ -41,10 +41,6 @@ header a:hover {
 .picture2 img {
   border-radius: 20px;
   width: 250px;
-}
-
-.profile {
-
 }
 
 .PR {
@@ -88,4 +84,3 @@ footer {
   background-color: #b0c4de;
   border-radius: 10px;
 }
-
